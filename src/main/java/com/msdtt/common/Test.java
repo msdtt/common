@@ -7,6 +7,10 @@ package com.msdtt.common;
 public class Test{
 
 	public static void main(String[] args){
-		System.out.println("x");
+		String aa = "200000000000000016";
+
+		System.out.println(aa.getBytes().toString());
+		Integer a =  Integer.valueOf("200000000000000016");
+		System.out.println(a);
 	}
 }
